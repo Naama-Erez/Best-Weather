@@ -1,7 +1,7 @@
 (function() {
 	function BestWeatherService ($http, $q) {
 		const APP_ID ='&appid=a31757fbe9d2a2205208e4b0a3a68eac',
-			API = 'http://api.openweathermap.org/data/2.5/box/city?bbox=',
+			API = 'https://api.openweathermap.org/data/2.5/box/city?bbox=',
 			MIN_LON = -180,
 			MAX_LON = 180,
 			MIN_LAT = -90,
